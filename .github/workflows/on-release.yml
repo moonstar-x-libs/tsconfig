@@ -9,3 +9,6 @@ jobs:
   publish:
     name: Publish Package
     uses: ./.github/workflows/callable-publish.yml
+    permissions:
+      id-token: write
+      contents: read
