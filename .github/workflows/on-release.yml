@@ -1,0 +1,11 @@
+name: On Release
+
+on:
+  release:
+    types:
+      - released
+
+jobs:
+  publish:
+    name: Publish Package
+    uses: ./.github/workflows/callable-publish.yml
