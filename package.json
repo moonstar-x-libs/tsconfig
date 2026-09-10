@@ -2,9 +2,6 @@
   "name": "@moonstar-x/tsconfig",
   "version": "1.0.0",
   "description": "Maximally strict, pedantic TypeScript configurations for TypeScript — a base config plus Node and React variants.",
-  "scripts": {
-    "test": "node --test test/run.test.js"
-  },
   "type": "module",
   "exports": {
     ".": "./base.json",
@@ -51,9 +48,6 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^26.5.0",
-    "@types/react": "^19.2.18",
-    "react": "^19.2.8",
     "typescript": "^7.0.2"
   },
   "publishConfig": {
