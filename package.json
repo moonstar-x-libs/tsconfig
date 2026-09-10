@@ -1,6 +1,6 @@
 {
   "name": "@moonstar-x/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Maximally strict, pedantic TypeScript configurations for TypeScript — a base config plus Node and React variants.",
   "type": "module",
   "exports": {
