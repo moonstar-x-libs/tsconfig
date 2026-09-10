@@ -5,6 +5,8 @@ on:
     types:
       - released
 
+run-name: Release ${{ github.event.release.tag_name }} by @${{ github.actor }}
+
 jobs:
   publish:
     name: Publish Package
